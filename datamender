@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""DataMender executable script"""
+import sys
+import os
+
+# Add DataMender directory to path
+datamender_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, datamender_dir)
+
+from datamender_cli import main
+
+if __name__ == "__main__":
+    sys.exit(main())

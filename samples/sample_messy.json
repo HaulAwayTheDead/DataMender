@@ -1,0 +1,7 @@
+[
+    {"name": "John Doe", "email": "john@example.com", "age": 25, "city": "New York", "date_joined": "2023-01-15"},
+    {"name": "jane smith", "email": "JANE@EXAMPLE.COM", "age": 30, "city": " Chicago ", "date_joined": "01/20/2023"},
+    {"name": "John Doe", "email": "john@example.com", "age": 25, "city": "New York", "date_joined": "2023-01-15"},
+    {"name": "Bob Johnson", "email": "", "age": 35, "city": "Los Angeles", "date_joined": "2023/02/10"},
+    {"name": "Alice Brown", "email": "alice@example.com", "age": 28, "city": "   Seattle", "date_joined": "15-03-2023"}
+]

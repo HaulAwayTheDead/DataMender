@@ -1,0 +1,48 @@
+# DataMender .gitignore
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+DataMender-v*.zip
+DataMender-v*/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_output/
+temp_*
+*.tmp
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Sample output files (keep the input samples)
+samples/cleaned_*.csv
+samples/cleaned_*.json
+samples/*_output.*
+
+# User configuration files
+config.json
+settings.ini
